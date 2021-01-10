@@ -3,7 +3,7 @@ import unittest
 from task import *
 
 
-class HelloUsername(unittest.TestCase):
+class Chasy(unittest.TestCase):
     def test_hello(self):
         self.assertEqual(resultFunc(150), [2, 30])
 

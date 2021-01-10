@@ -1,6 +1,8 @@
 def resultFunc(number: int):
     result = GetHoursAndMinutes(number)
     return result
+
+
 def GetHoursAndMinutes(number):
     hours = number // 60
     m = number % 60
@@ -13,4 +15,5 @@ def ResultCall():
     print(result[0], result[1])
 
 
-ResultCall()
+if __name__ == "__main__":
+    ResultCall()
