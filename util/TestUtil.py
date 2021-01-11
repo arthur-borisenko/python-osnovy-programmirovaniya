@@ -1,5 +1,5 @@
-from io import StringIO
 import sys
+from io import StringIO
 
 
 def console_test(in_text, test_call, test_assert):
