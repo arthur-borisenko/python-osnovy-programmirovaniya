@@ -1,4 +1,3 @@
-week1/videos/test.py
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -128,3 +127,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+/week2/tasks/checks.py

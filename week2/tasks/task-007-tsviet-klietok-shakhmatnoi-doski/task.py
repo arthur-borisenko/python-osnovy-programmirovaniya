@@ -1,6 +1,17 @@
+def isDiving(number, divider) -> bool:
+    return number % divider == 0
+
+
+def checkPos(x:int) -> int:
+    if isDiving(x, 2):
+        return 2
+    else:
+        return 3
+
+
 def isUpper(pos1: list, pos2: list) -> bool:
     # pos1[0]-x1 pos2[0]-x2 pos1[1]-y1 pos2[1]-y2
-    return pos1[0] == pos2[0] and pos1[1] + 1 == pos2[1]
+    chk=checkPos(pos1[0])
 
 
 def isDowner(pos1: list, pos2: list) -> bool:
